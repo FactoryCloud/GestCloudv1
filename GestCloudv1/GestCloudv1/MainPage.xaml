@@ -9,6 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button>Prueba</Button>
+        <Button Margin="104,208,0,400">Eres una mierda de programa</Button>
         <Button RenderTransformOrigin="1.038,2.75" Margin="104,368,0,240">Prueba 2</Button>
     </Grid>
 </Page>
