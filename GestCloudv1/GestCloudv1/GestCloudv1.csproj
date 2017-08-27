@@ -95,8 +95,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GestCloudDB\GestCloudDB.cs" />
-    <Compile Include="GestCloudDB\User.cs" />
+    <Compile Include="GestCloudDB_Framework\GestCloudDB.cs" />
+    <Compile Include="GestCloudDB_Framework\User.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

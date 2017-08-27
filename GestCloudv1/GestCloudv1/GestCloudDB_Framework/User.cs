@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Pack1.v1
+namespace GestCloudDB_Framework.v1
 {
     public class User
     {

@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Microsoft.EntityFrameworkCore;
+using GestCloudDB_Framework.v1;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -26,7 +27,7 @@ namespace GestCloudv1
         public NewUserWindow()
         {
             this.InitializeComponent();
-            var db = new 
+            var db = new GestCloudDB();
         }
     }
 }
