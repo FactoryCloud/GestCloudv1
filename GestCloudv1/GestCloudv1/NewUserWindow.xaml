@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="GestCloudv1.NewUserWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GestCloudv1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1"/>
+            <ColumnDefinition Width="2"/>
+            <ColumnDefinition Width="1"/>
+            <ColumnDefinition Width="2"/>
+            <ColumnDefinition Width="1"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock FontSize="20" Grid.Column="2">Nombre</TextBlock>
+            <TextBox FontSize="20" Grid.Column="4"></TextBox>
+        </StackPanel>
+    </Grid>
+</Page>
